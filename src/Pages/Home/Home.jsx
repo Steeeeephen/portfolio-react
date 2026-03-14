@@ -1,6 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import './home.css';
-import {NavLink} from "react-router";
+// import {NavLink} from "react-router";
+import Navbar from "../../Components/Navbar/Navbar.jsx";
 
 const Home = () => {
     return (
@@ -10,19 +11,7 @@ const Home = () => {
                 <h4>Full Stack Web Developer</h4>
             </div>
 
-            <nav className="home-container__links">
-                <ul className="nav-list">
-                    <li className="home-container__link">
-                        <NavLink to="about">About</NavLink>
-                    </li>
-                    <li className="home-container__link">
-                        <NavLink to="projects">Work</NavLink>
-                    </li>
-                    <li className="home-container__link">
-                        <NavLink to="contact">Contact</NavLink>
-                    </li>
-                </ul>
-            </nav>
+        <Navbar />
         </div>
     )
 }

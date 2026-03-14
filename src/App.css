@@ -16,8 +16,8 @@
 }
 
 html {
-    background-color: #22201A;
-    color: #EDE4D4;
+    background-color: #EDE4D4;
+    color: #22201A;
     font-family: "Cabin", sans-serif;
     font-size: 100%;
     scroll-behavior: smooth;
@@ -68,17 +68,20 @@ button {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 6rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h3  {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h4 {
     font-size: 3rem;
 }
+
