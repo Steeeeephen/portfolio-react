@@ -1,0 +1,24 @@
+/* Breakpoints: mobile < 768px | tablet 768–1023px | desktop 1024px+ */
+
+.home-navbar__list {
+  display: flex;
+  gap: 1rem;
+  /* margin-top: 1rem; */
+}
+
+.home-navbar__link {
+  font-family: 'Raleway';
+  font-size: 1.5rem;
+  transition: color ease-in 0.2s;
+}
+
+.home-navbar__link:hover {
+  color: #c8946a;
+}
+
+@media screen and (max-width: 768px) {
+  .home-navbar__link {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+}
