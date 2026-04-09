@@ -1,11 +1,26 @@
 .about-container {
+  font-family: 'raleway', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
   /*height: 100vh;*/
-  margin: auto;
+  /*margin: auto;*/
+
   font-weight: 400;
+  flex: 1;
+  margin-top: 2rem;
+
+}
+
+.about-section {
+  /*display: flex;*/
+  /*align-items: flex-start;  */
+  /*gap: 2rem;*/
+  justify-content: space-between;
+  font-size: 1.5rem;
+  /*margin: auto;*/
+  width: 50%;
 }
 
 .about-img {
@@ -27,28 +42,25 @@
   font-size: 1rem;
 }
 
-.about-section {
-  font-size: 1.5rem;
-  margin: auto;
-  width: 40%;
-}
-
 .about-title,
 .skill-title {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .about-title {
-  font-size: 8rem;
+  font-size: 5rem;
   font-weight: 300;
 }
 
-.skill-title {
+.skill-title,
+.education-title
+{
   font-weight: 300;
 }
 
 .skill-section {
-  width: 40%;
+  margin-top: 2rem;
+  width: 50%;
 }
 
 .skill-grid {

@@ -8,15 +8,13 @@ function App() {
 
   return (
     <>
-            <main>
-                <Routes>
-                      <Route path="/" element={<Home />}/>
-                      <Route path="about" element={<About />}/>
-                </Routes>
-            </main>
-            <Footer />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Routes>
+        <Footer />
     </>
-  )
+  );
 }
 
 export default App
