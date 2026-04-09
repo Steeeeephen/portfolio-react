@@ -1,18 +1,20 @@
 // import React from 'react';
 import './home.css';
 // import {NavLink} from "react-router";
-import Navbar from "../../Components/Navbar/Navbar.jsx";
+import Homenav from '../../Components/Homenav/Homenav.jsx';
+import Footer from '../../Components/Footer/Footer.jsx';
 
 const Home = () => {
-    return (
-        <div className="home-container">
-            <div className="home-container__title">
-                <h1>Stephen Zalalas</h1>
-                <h4>Full Stack Web Developer</h4>
-            </div>
-
-        <Navbar />
+  return (
+    <>
+      <div className="home-container">
+        <div className="home-container__title">
+          <h1>Stephen Zalalas</h1>
+          <h2>Full Stack Web Developer</h2>
         </div>
-    )
-}
-export default Home
+        <Homenav />
+      </div>
+    </>
+  );
+};
+export default Home;
