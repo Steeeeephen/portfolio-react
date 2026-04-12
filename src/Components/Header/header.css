@@ -1,3 +1,8 @@
+.header-container {
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+}
+
 header{
     font-family: 'Montserrat Alternates', sans-serif;
     display: flex;

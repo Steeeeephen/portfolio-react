@@ -5,11 +5,13 @@ import './header.css'
 
 const Header = () => {
     return (
+      <div className="header-container">
         <header>
-            <NavLink to="/"> - Stephen Zalalas - </NavLink>
+          <NavLink to="/"> - Stephen Zalalas - </NavLink>
 
-            <Navbar />
+          <Navbar />
         </header>
-    )
+      </div>
+    );
 }
 export default Header
