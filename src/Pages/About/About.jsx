@@ -1,5 +1,6 @@
 import './about.css';
 import Header from '../../Components/Header/Header.jsx';
+import { useEffect } from 'react';
 
 
 const About = () => {
@@ -13,6 +14,10 @@ const About = () => {
     'Laravel',
     'MySQL',
   ];
+
+  useEffect(() => {
+    document.title = 'About | Stephen Zalalas'
+  })
 
   return (
     <>
