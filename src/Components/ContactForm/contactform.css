@@ -1,0 +1,37 @@
+
+
+.contact-form,
+.contact-form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    gap: 1rem;
+}
+
+.contact-form div{
+    gap: .5rem;
+}
+
+.email,
+.message {
+    border: solid 2px #3d3530;
+    border-radius: 5px;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    cursor: pointer;
+    background-color: #8FAF8A;
+    width: 50%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+}

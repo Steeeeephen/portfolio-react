@@ -1,8 +1,52 @@
-footer
-  {
+footer {
     text-align: center;
     display: flex;
     justify-content: center;
     gap: 4rem;
+    margin-top: 2rem;
+}
 
-  }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.cat-fact-modal {
+  /*display: none;*/
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5efe6;
+  border-radius: 10px;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.gandalf {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.modal-img{
+  border-radius: 100%;
+  height: 100px;
+  width: auto;
+  border: 3px solid #8FAF8A;
+}

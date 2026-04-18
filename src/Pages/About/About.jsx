@@ -1,7 +1,6 @@
 import './about.css';
 import Header from '../../Components/Header/Header.jsx';
-import Footer from '../../Components/Footer/Footer.jsx';
-// import gandalf from '../../assets/gandalf.jpg';
+
 
 const About = () => {
   let skills = [
@@ -18,7 +17,7 @@ const About = () => {
   return (
     <>
       <Header />
-      <div className="about-container">
+      <div className="about-container container">
         <section className="about-section">
           <h1 className="about-title">About</h1>
 

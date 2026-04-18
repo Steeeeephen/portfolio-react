@@ -1,0 +1,51 @@
+.works {
+    box-shadow: none;
+    display: flex;
+
+}
+
+.work-card {
+    padding: 1rem;
+    /*box-shadow: 0 2px 12px rgba(0, 0, 0, .15);*/
+    /*border: #3d3530 solid 3px;*/
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+.work-title {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.project-image-wrapper {
+    position: relative;
+}
+
+.project-image {
+    height: auto;
+    width: 100%;
+}
+
+.project-image-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%; /* how far up the fade starts */
+    background: linear-gradient(to bottom, transparent, #f5efe6);
+}
+
+.tech-stack {
+    display: flex;
+    gap: .5rem;
+}
+
+.tech-stack__item {
+    background-color: #8FAF8A;
+    border-radius: 5px;
+    padding: .5rem;
+}

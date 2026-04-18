@@ -12,3 +12,9 @@
 .navbar-link:hover{
     color: #C8946A;
 }
+
+@media screen and (max-width:767px) {
+    .navbar {
+        display: none;
+    }
+}
