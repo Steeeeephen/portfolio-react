@@ -1,12 +1,12 @@
 /* Breakpoints: mobile < 768px | tablet 768–1023px | desktop 1024px+ */
 
-.about-section {
-  font-size: 1.5rem;
+
+
+.about-section,
+.education-section {
+  font-size: 1.2rem;
 }
 
-.about-section__content {
-  display: flex;
-}
 
 .about-img {
   display: flex;
@@ -16,10 +16,11 @@
   max-width: 150px;
   margin-right: 25px;
   margin-bottom: 10px;
+  float: left;
 }
 
 .about-img img {
-  border-radius: 100%;
+  border-radius: 10px;
   border: 3px solid #8FAF8A;
 }
 
@@ -29,12 +30,7 @@
 
 .about-title,
 .skill-title {
-  /*text-align: center;*/
   margin-bottom: 1rem;
-}
-
-.skill-section {
-  margin-top: 2rem;
 }
 
 .skill-grid {
@@ -55,6 +51,10 @@
   background-color: rgba(143, 175, 138, .35);
 }
 
+.education-section ul {
+  list-style: circle;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   section {
@@ -69,12 +69,8 @@
 
   .about-section__content {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .about-title {
-    text-align: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
   }
 
   .skill-grid {
