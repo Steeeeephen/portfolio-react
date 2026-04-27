@@ -19,11 +19,23 @@ const ContactForm = () => {
                     id="email"
                     type="email"
                     name="email"
+                    required
                 />
                 <ValidationError
                     prefix="Email"
                     field="email"
                     errors={state.errors}
+                />
+            </div>
+
+            <div>
+                <label htmlFor="name">Name</label>
+                <input
+                    className="name"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
                 />
             </div>
 
@@ -36,6 +48,7 @@ const ContactForm = () => {
                     id="message"
                     name="message"
                     rows="4"
+                    required
                 />
                 <ValidationError
                     prefix="Message"

@@ -15,7 +15,9 @@
 }
 
 .email,
-.message {
+.message,
+.name
+{
     border: solid 2px #3d3530;
     border-radius: 5px;
     padding: .5rem;
