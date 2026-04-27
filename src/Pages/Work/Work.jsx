@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from "../../Components/Header/Header.jsx";
 import './work.css';
 
 const Work = () => {
+
+    useEffect(() => {
+        document.title = "My Work - stephenzalalas.dev"
+    }, []);
+
     return (
         <>
             <Header/>
