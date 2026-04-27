@@ -65,12 +65,16 @@ header{
 
     .mobile-menu__nav {
         color: #f5efe6;
-
         display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
         font-size: 5rem;
+    }
+
+    .social-links {
+        display: flex;
+        gap: 1rem;
     }
 
 }

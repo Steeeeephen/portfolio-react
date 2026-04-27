@@ -15,6 +15,14 @@ const Navbar = () => {
                     <li className="navbar-link">
                         <NavLink to="/contact">Contact</NavLink>
                     </li>
+
+                    <li className="navbar-link">
+                        <img src="/linkedin.svg" alt=""/>
+                    </li>
+
+                    <li className="navbar-link">
+                        <img src="/github.svg" alt=""/>
+                    </li>
                 </ul>
             </nav>
         </>

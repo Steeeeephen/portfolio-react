@@ -37,6 +37,11 @@ const Header = () => {
                     <NavLink to="/about">About</NavLink>
                     <NavLink to="/work">Work</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
+
+                    <div className="social-links">
+                            <img src="/linkedin-mobile.svg" alt=""/>
+                            <img src="/github-mobile.svg" alt=""/>
+                    </div>
                 </div>
             </div>
 
