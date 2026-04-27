@@ -8,7 +8,6 @@
 /* #2C3828*/
 
 /* Breakpoints: mobile < 768px | tablet 768–1023px | desktop 1024px+ */
-/* Breakpoints: mobile < 768px | tablet 768–1023px | desktop 1024px+ */
 
 *,
 *::before,
@@ -99,13 +98,10 @@ section {
   max-width: 800px;
 }
 
-hr {
-  width: 25%;
-}
+
 
 
 .container {
-
   font-family: 'raleway', sans-serif;
   display: flex;
   flex-direction: column;

@@ -1,7 +1,6 @@
 .nav-list {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
 }
 
 .navbar-link {
