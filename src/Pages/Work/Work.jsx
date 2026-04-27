@@ -18,7 +18,7 @@ const Work = () => {
                 <section className="works">
                     <div className="work-card">
                         <div className="project-image-wrapper">
-                            <img className="project-image" src="/Screenshot%202026-04-14%20at%206.16.15%E2%80%AFPM.png"
+                            <img className="project-image" src="/workout-mood-tracker.png"
                                  alt=""/>
                         </div>
 
@@ -54,7 +54,7 @@ const Work = () => {
                         <div className="project-image-wrapper">
                             <img
                                 className="project-image"
-                                src="/Screenshot%202026-04-27%20at%204.54.28%E2%80%AFPM.png"
+                                src="/invoice-customer-management.png"
                                 alt=""/>
                         </div>
 
