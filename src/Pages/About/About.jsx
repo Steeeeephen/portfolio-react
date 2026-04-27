@@ -1,6 +1,5 @@
 import './about.css';
 import Header from '../../Components/Header/Header.jsx';
-import ContactForm from "../../Components/ContactForm/ContactForm.jsx";
 import React from "react";
 
 
@@ -11,9 +10,12 @@ const About = () => {
     'JavaScript',
     'React',
     'Node.js',
+    'Express',
     'PHP',
     'Laravel',
     'MySQL',
+    'PostgreSQL',
+    'Tailwind CSS'
   ];
 
   return (
@@ -63,7 +65,7 @@ const About = () => {
             <h2 className="skill-title">My Skills</h2>
             <div className="skill-grid">
               {skills.map((skill) => (
-                  <span className="skill-grid__item">{skill}</span>
+                  <span key={skill} className="skill-grid__item">{skill}</span>
               ))}
             </div>
           </section>
@@ -78,6 +80,16 @@ const About = () => {
               <p className="education-meta">May 2025 &nbsp;·&nbsp; 3.82 GPA &nbsp;·&nbsp; High Honors</p>
             </div>
           </section>
+
+        <section>
+
+            <a href="/Resume_StephenZalalas.pdf" className="resume-link" target="_blank">
+                Resume
+            </a>
+
+
+
+        </section>
 
         </div>
 
