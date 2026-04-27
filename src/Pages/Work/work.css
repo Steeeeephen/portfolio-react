@@ -40,6 +40,11 @@
     background: linear-gradient(to bottom, transparent, #f5efe6);
 }
 
+.project-links {
+    display: flex;
+    gap: 2rem;
+}
+
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
