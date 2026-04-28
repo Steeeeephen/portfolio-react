@@ -50,3 +50,12 @@ footer {
   width: auto;
   border: 3px solid #8FAF8A;
 }
+
+@media screen and (max-width:767px) {
+
+  .cat-fact-modal {
+    font-size: 1.25rem;
+    width: 90%;
+  }
+
+}
