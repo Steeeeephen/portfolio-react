@@ -17,11 +17,15 @@ const Navbar = () => {
                     </li>
 
                     <li className="navbar-link">
-                        <img src="/linkedin.svg" alt=""/>
+                        <a href="https://www.linkedin.com/in/stephen-zalalas/" target="_blank" rel="noopener noreferrer">
+                            <img src="/linkedin.svg" alt="linked in"/>
+                        </a>
                     </li>
 
                     <li className="navbar-link">
-                        <img src="/github.svg" alt=""/>
+                        <a href="https://github.com/Steeeeephen" target="_blank" rel="noopener noreferrer">
+                            <img src="/github.svg" alt="github"/>
+                        </a>
                     </li>
                 </ul>
             </nav>
