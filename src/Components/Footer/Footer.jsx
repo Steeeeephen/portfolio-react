@@ -1,14 +1,25 @@
 import './footer.css';
-import { useState } from 'react';
+import { useState} from 'react';
 
 const Footer = () => {
   const [catFact, setCatFact] = useState(null);
+  const [isLoading, setIsLoading] = useState(false)
+    const [error, setError] = useState(null)
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleCatFact = async () =>  {
-      const response = await fetch('https://catfact.ninja/fact');
-      const data = await response.json();
-      setCatFact(data.fact);
+      setIsLoading(true);
+      try {
+          const response = await fetch('https://catfact.ninja/fact');
+          const data = await response.json();
+          setCatFact(data.fact);
+      } catch (error) {
+          setError(error)
+      } finally {
+          setIsLoading(false)
+      }
+
+
   }
 
   const handleModal = () => {
@@ -30,7 +41,10 @@ const Footer = () => {
         {isModalOpen &&(
             <div className="modal-overlay" onClick={()=>{setIsModalOpen(false)}}>
               <div className="cat-fact-modal" onClick={(e) => e.stopPropagation()}>                <div className="cat-fact-modal__text">
-                  <p>"{catFact}"</p>
+
+                  <p>
+                      {isLoading ? "Preparing cat fact..." : error ? "Nothing today..." : catFact}
+                  </p>
                 </div>
 
                 <div className="gandalf">

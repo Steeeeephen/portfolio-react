@@ -13,7 +13,7 @@ const Header = () => {
         <>
             <div className="header-container">
                 <header>
-                    <NavLink to="/" className="home-link">Stephen Zalalas</NavLink>
+                    <NavLink to="/" className="home-link"><h4>Stephen Zalalas</h4></NavLink>
 
                     <button>
                         <img onClick={handleMobileMenu} src="/burger-menu-svg.svg" className="burger-menu" alt=""/>
@@ -37,6 +37,16 @@ const Header = () => {
                     <NavLink to="/about">About</NavLink>
                     <NavLink to="/work">Work</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
+
+                    <div className="social-links">
+                        <a href="https://www.linkedin.com/in/stephen-zalalas/" >
+                            <img src="/linkedin-mobile.svg" alt="linked in"/>
+                        </a>
+                        <a href="https://github.com/Steeeeephen" >
+                            <img src="/github-mobile.svg" alt="github"/>
+                        </a>
+
+                    </div>
                 </div>
             </div>
 

@@ -1,10 +1,14 @@
-// import React from 'react';
 import './home.css';
-// import {NavLink} from "react-router";
 import Homenav from '../../Components/Homenav/Homenav.jsx';
-import Footer from '../../Components/Footer/Footer.jsx';
+import {useEffect} from "react";
 
 const Home = () => {
+
+    useEffect(() => {
+        document.title = "stephenzalalas.dev"
+    }, []);
+
+
   return (
     <>
       <div className="home-container">

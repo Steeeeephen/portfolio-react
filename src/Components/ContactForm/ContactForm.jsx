@@ -3,7 +3,7 @@ import {useForm, ValidationError} from "@formspree/react";
 import './contactform.css';
 
 const ContactForm = () => {
-    const [state, handleSubmit] = useForm("mlgadabd");
+    const [state, handleSubmit] = useForm("mwvagoyw");
     if (state.succeeded) {
         return <p>Thanks for reaching out, I'll get back to you soon.</p>;
     }
@@ -19,11 +19,23 @@ const ContactForm = () => {
                     id="email"
                     type="email"
                     name="email"
+                    required
                 />
                 <ValidationError
                     prefix="Email"
                     field="email"
                     errors={state.errors}
+                />
+            </div>
+
+            <div>
+                <label htmlFor="name">Name</label>
+                <input
+                    className="name"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
                 />
             </div>
 
@@ -36,6 +48,7 @@ const ContactForm = () => {
                     id="message"
                     name="message"
                     rows="4"
+                    required
                 />
                 <ValidationError
                     prefix="Message"
@@ -45,7 +58,7 @@ const ContactForm = () => {
             </div>
 
             <button type="submit" className="submit-btn" disabled={state.submitting}>
-                Submit
+                Send Message
             </button>
         </form>
     );

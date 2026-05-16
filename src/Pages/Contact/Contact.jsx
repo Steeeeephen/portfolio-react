@@ -1,14 +1,14 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react'
 import Header from "../../Components/Header/Header.jsx";
 import ContactForm from "../../Components/ContactForm/ContactForm.jsx";
 import './contact.css'
 
 const Contact = () => {
-  
+
     useEffect(() => {
-      document.title = 'Contact | Stephen Zalalas'
-    })
-  
+        document.title = "Contact Me - stephenzalalas.dev"
+    }, []);
+
     return (
         <>
             <Header />
@@ -18,6 +18,7 @@ const Contact = () => {
 
                 <section>
                     <h1>Contact</h1>
+
                     <ContactForm />
 
                 </section>

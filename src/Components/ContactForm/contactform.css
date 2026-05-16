@@ -15,7 +15,9 @@
 }
 
 .email,
-.message {
+.message,
+.name
+{
     border: solid 2px #3d3530;
     border-radius: 5px;
     padding: .5rem;
@@ -34,4 +36,12 @@ textarea {
     margin: auto;
     padding: 1rem;
     font-size: 1.2rem;
+}
+
+
+@media screen and (max-width:767px) {
+    .submit-btn {
+        width: 100%;
+    }
+
 }
